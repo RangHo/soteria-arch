@@ -7,7 +7,7 @@ arch=('x86_64')
 url="https://github.com/imvaskel/soteria"
 license=('Apache-2.0')
 depends=('gtk4' 'polkit')
-makedepends=('cargo' 'git' 'rust')
+makedepends=('git' 'rust')
 options=('!debug')
 source=("git+$url#tag=v$pkgver")
 b2sums=('51fc36d28df3aeb8840cfdfba402be0039119b6e4c82c77c602dc099b020385b55947d4b9d443242bd2fcf1065c60e1fb85da21af6f909de786ae9c59c4f5f27')
